@@ -66,6 +66,5 @@ These codes implement and compare two approaches to compute the **ground state p
 ---
 
 ## For more infos: 
-
-These codes were developed during a **research internship** supervised by **Mr. Bruno Julia** at **Barcelona University**.  
-A **poster presentation** of the internship is included in this repository. 
+ 
+This internship was carried out within the ARTeQ (Année de Recherche en Technologies Quantiques) program, a one-year interdisciplinary training in quantum technologies offered by ENS Paris-Saclay and the University of Paris-Saclay. ARTeQ focuses on quantum computing, quantum simulation, quantum communications, and quantum sensors. The program includes coursework and a research internship that I accomplished at **Barcelona University** under the supervision of **Mr. Bruno Julia**. A **poster presentation** of the internship is included in this repository.
