@@ -22,7 +22,6 @@ The Bose–Hubbard Hamiltonian reads:
 ```math
 \hat{H} = -t \sum_{\langle i,j \rangle} \hat{a}_i^\dagger \hat{a}_j 
 + \frac{U}{2} \sum_i \hat{n}_i (\hat{n}_i - 1) 
-- \mu \sum_i \hat{n}_i
 ````
 
 ## ⚙️ Implemented Methods  
