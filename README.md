@@ -17,12 +17,22 @@ In this model:
 - Each **lattice site** corresponds to a potential well.  
 - The Hamiltonian is then expressed in a **discrete Fock basis**, which encodes all possible distributions of bosons among the lattice sites.  
 
-The Bose–Hubbard Hamiltonian reads:  
+In a ring configuration of M sites, the Bose–Hubbard Hamiltonian reads:  
 
 ```math
-\hat{H} = -J \sum_{\langle i,j \rangle} \hat{a}_i^\dagger \hat{a}_j 
-+ \frac{U}{2} \sum_i \hat{n}_i (\hat{n}_i - 1) 
-````
+\hat{H} = -J \sum_{i=1}^{M} (\hat{a}_i^\dagger \hat{a}_{i+1} + \hat{a}_{i+1}^\dagger \hat{a}_{i}) 
++ \frac{U}{2} \sum_{i=1}^{M} \hat{n}_i (\hat{n}_i - 1) 
+```
+where  
+
+$$J$$ : hopping amplitude  
+
+$$U$$ : on-site interaction strength 
+
+$$\hat{a}_i^\dagger, \hat{a}_i$$ : bosonic creation/annihilation operators  
+
+$$\hat{n}_i = \hat{a}_i^\dagger \hat{a}_i$$ : number operator
+
 
 ## ⚙️ Implemented Methods  
 
